@@ -86,7 +86,7 @@ const Footer = ({ onHomeClick, onAboutClick, onTechnologiesClick, onProjectsClic
           </div>
 
           <div className="border-t border-gray-600 mt-8 pt-4 text-center text-sm">
-            <p>&copy; 2024 Your Company. All rights reserved.</p>
+            <p>&copy; 2024 Marvelous Egor. All rights reserved.</p>
           </div>
         </div>
       </footer>
