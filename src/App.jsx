@@ -41,10 +41,7 @@ const App = () => {
             onContactClick={() => scrollToSection(contactRef)}
           />
 
-          <div ref={homeRef}>
-            <Hero />
-          </div>
-          <div ref={aboutRef}>
+          <div ref={homeRef }>
             <Hero />
           </div>
           <div ref={technologiesRef}>
