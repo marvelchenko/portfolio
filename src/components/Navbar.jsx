@@ -10,28 +10,28 @@ const Navbar = () => {
             </a>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <a href="https://github.com/marvelchenko"
+            <a href="https://linkedin.com/marvelchenko"
              target="_blank"
              rel="noopener noreferrer"
              aria-label="LinkedIn">
                 <FaLinkedin/>
              </a>
-             <a href="https://www.linkedin.com/in/your-linkedin-profile"
+             <a href="https://github.com/marvelchenko"
              target="_blank"
              rel="noopener noreferrer"
-             aria-label="LinkedIn">
+             aria-label="GitHub">
                 <FaGithub/>
              </a>
              <a href="https://www.linkedin.com/in/your-linkedin-profile"
              target="_blank"
              rel="noopener noreferrer"
-             aria-label="LinkedIn">
+             aria-label="Facbook">
                 <FaFacebook/>
              </a>
              <a href="https://www.linkedin.com/in/your-linkedin-profile"
              target="_blank"
              rel="noopener noreferrer"
-             aria-label="LinkedIn">
+             aria-label="x">
                 <FaX/>
              </a>
         </div>
