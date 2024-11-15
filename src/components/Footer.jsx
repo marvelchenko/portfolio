@@ -60,11 +60,6 @@ const Footer = ({ onHomeClick, onAboutClick, onTechnologiesClick, onProjectsClic
                   </button>
                 </li>
                 <li>
-                  <button onClick={onAboutClick} className="hover:text-yellow-400">
-                    About
-                  </button>
-                </li>
-                <li>
                   <button onClick={onTechnologiesClick} className="hover:text-yellow-400">
                     Technologies
                   </button>
