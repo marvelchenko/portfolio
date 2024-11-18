@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate Frontend Developer and Graphic Designer with over 2 years of experience, eager to explore and grow in the tech industry. I have honed my skills in front-end technologies such as HTML, CSS, React, Node.js, MySQL, Toad for Oracle, Photoshop and CorelDraw, and I am driven to continue developing innovative, high-quality web applications.`;
 
@@ -58,6 +59,13 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwild CSS"],
+  },
+  {
+    title: "Expense Tracker",
+    image: project4,
+    description:
+      "The Expense Tracker is a React application that helps users manage their income and expenses",
+    technologies: ["React", "Context API", "Tailwild CSS"],
   },
 ];
 
