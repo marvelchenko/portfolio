@@ -59,7 +59,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwild CSS"],
-    visitLink: "marvelous-egor.vercel.app",
+    visitLink: "https://marvelous-egor.vercel.app",
     sourceLink: "https://github.com/marvelchenko/portfolio"
   },
   {
