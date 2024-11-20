@@ -32,10 +32,34 @@ const Projects = () => {
           className="w-full max-w-xl lg:w-3/4">
             <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
             <p className="mb-4 text-stone-400">{project.description}</p>
-            {project.technologies.map((tech, index) =>
+           <div className="mb-4">
+            {project.technologies.map((tech, index) => (
             <span className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300" key={index}>
               {tech}
-            </span>)}
+            </span>))}
+           </div>
+            <div className="flex space-x-4">
+              {project.visitLink && (
+                  <a
+                    href={project.visitLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded bg-yellow-500 px-4 py-2 text-black hover:bg-yellow-600"
+                  >
+                    Visit Project
+                  </a>
+                )}
+                {project.sourceLink && (
+                  <a
+                    href={project.sourceLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded bg-yellow-500 px-4 py-2 text-black hover:bg-yellow-600"
+                  >
+                    Project Source
+                  </a>
+                )}
+            </div>
           </motion.div>
         </div>)}
       </div>
