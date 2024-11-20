@@ -45,6 +45,8 @@ export const PROJECTS = [
     description:
       "A simple registration and login portal, where you can register with your data and use your email and password to login to the dashboard",
     technologies: ["HTML", "CSS", "React", "Node.js", "Bootstrap", "MySQL"],
+    visitLink: "marvelous-egor.vercel.app",
+    sourceLink: "https://github.com/marvelchenko/portfolio"
   },
   {
     title: "Company Website",
